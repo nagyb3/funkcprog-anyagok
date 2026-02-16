@@ -38,7 +38,7 @@ inc x = x + 1
 
 -- függvény kiértékelési idő, futási idő helyett
 
--- + is egy függvény -> ~inc egy függvény "kompozívió"
+-- + is egy függvény -> ~inc egy függvény "kompozíció"
 
 -- case sensitive, lehet nagybetüket használni függvényneveknél
 

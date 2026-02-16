@@ -14,7 +14,6 @@
 -- lambda.inf.elte.hu -> tárgy célja
 
 
-
 -- http://lambda.inf.elte.hu/Drawings.xml
 
 -- precedencia:
@@ -31,7 +30,6 @@ circle :: Double -> Diagram
 (<|>) :: Diagram -> Diagram -> Diagram
 
 -- tuple, rendezet pár/hármas
-
 
 -- infix fvg alk., zárójel elhagyható függvény alkalmazásoknál ~
 -- pl: circle 5 `move` (3,0)
