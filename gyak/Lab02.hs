@@ -14,7 +14,7 @@ multAdd n m = n * m + n + m
 -- http://lambda.inf.elte.hu/Boolean.xml
 
 
--- Bool
+-- Bool: logikai típus
 -- False, True
 
 -- tagadás: not
@@ -25,7 +25,7 @@ multAdd n m = n * m + n + m
 
 -- VAGY: ||
 
--- logikai és erősebb mint vagy
+-- logikai 'és' erősebb mint 'vagy'
 
 
 
@@ -89,3 +89,19 @@ xor True True = False
 xor _ _ = True
 
 -- Összehasonlító operátorok
+
+
+
+myNot1' :: Bool -> Bool
+myNot1' True = False
+myNot1' n = True
+
+
+myAnd0' :: Bool -> Bool -> Bool
+myAnd0' True True = True
+myAnd0' _ _ = False
+
+
+myAnd3 :: Bool -> Bool -> Bool
+myAnd3 True b = b
+myAnd3 _ _ = False

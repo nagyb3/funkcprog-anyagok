@@ -17,15 +17,15 @@ module SecondEA where
 
 -- lusta: halogatjuk az argumentumok kiszámolását
 
--- a példában lusta lasabb
+-- a példában lusta lassabb
 
--- "kiértékelédőrendszer"
+-- "kiértékelőrendszer"
 
 -- squareinc 7
 
 -- Haskell -> lusta
 
--- de a Haskell és a Clean sem lesz lasabb a lusta kiértékeléssel (szemben régebbi nyelvekkel)
+-- de a Haskell és a Clean sem lesz lassabb a lusta kiértékeléssel (szemben régebbi nyelvekkel)
 
 -- átírás: nem szövegszerű átírás, hanem előszőr szövegből gráf 
 -- inc 7 egy csomópont lesz
@@ -105,4 +105,11 @@ module SecondEA where
 
 -- => főmodul : kezdeti kifejezés : Start = map abs [7, -4, 3]
 -- import StdEnv olyan cleanben mint haskellben Prelude
+
+-- * magasabb precedencia mint +
+
+-- precedencia: zárójelezést dönt el
+
+-- sort: rendezett másolatot add vissza, nem ugyanazt módosítja !
+-- nem helyben rendezés hanem másolat
 
