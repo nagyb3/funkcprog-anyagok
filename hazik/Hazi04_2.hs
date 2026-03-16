@@ -9,7 +9,7 @@ validTime x y
 -- 2. feladat
 sumOfDivisorsRecursive :: Integer -> Integer -> Integer
 sumOfDivisorsRecursive x y
-  | x <= 0 || y <= 0 = 0 
+  | x <= 0 || y <= 0 = 0  
   | x `mod` y == 0 = y + sumOfDivisorsRecursive x (y - 1)
   | otherwise = sumOfDivisorsRecursive x (y - 1)
 
